@@ -11,7 +11,7 @@
 
 Una demo completa de tienda online con carrito de compras inteligente, rutas protegidas, autenticación simulada y diseño responsivo. Consume datos en vivo desde FakeStore API con fallback local.
 
-[Demo en vivo](#) · [Reportar Bug](https://github.com/tuusuario/mi-app/issues) · [Solicitar Feature](https://github.com/tuusuario/mi-app/issues)
+[Demo en vivo](https://mi-k0lnv7jsi-arielmichs-projects.vercel.app) · [Reportar Bug](https://github.com/ArielMichelli/mi-app/issues) · [Solicitar Feature](https://github.com/ArielMichelli/mi-app/issues)
 
 </div>
 
