@@ -1,7 +1,10 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const AuthContext = createContext(null);
+
+// Exportar el contexto para que el hook pueda usarlo
+export { AuthContext };
 
 export function AuthProvider({ children }) {
 	const [user, setUser] = useState(null);
@@ -9,7 +12,6 @@ export function AuthProvider({ children }) {
 
 	function login(name) {
 		setUser({ name });
-		// After login, navigate back if needed handled by Login page
 	}
 
 	function logout() {
@@ -22,8 +24,4 @@ export function AuthProvider({ children }) {
 			{children}
 		</AuthContext.Provider>
 	);
-}
-
-export function useAuth() {
-	return useContext(AuthContext);
 }
